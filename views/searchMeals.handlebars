@@ -1,0 +1,25 @@
+<script src='search.js'></script>
+<div class="row"><!-- Login form row -->
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+                <h1 id="login-header">Meal Search</h1>
+                <form id="mealSearchForm" action="/searchMeals" method="post">
+                        <div class="form-group">
+                                <div>
+                                <label>Name</label><input class="form-control" type="text" id="mealName">                       
+                                <label>Category</label><input class="form-control" type="text" id="genre">
+                                <label>Preparation Time</label><input class="form-control" type="number" id="prep_time">
+                                <div class="row">
+                                        <div class="col-xs-4"></div>
+                                        <div class="col-xs-4">
+                                        <input class="btn btn-primary" type="submit" value="Submit" id="searchMeals">
+                                        </div>
+                                        <div class="col-xs-4"></div>
+                                </div>
+                                </div>  
+                        </div>  
+                </form>
+        </div>
+        <div class="col-sm-4"></div>
+</div><!-- Login form row end -->
+<div name="results" id="results">Results Here</div>

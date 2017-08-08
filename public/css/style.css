@@ -1,0 +1,137 @@
+.centered {
+	text-align: center;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.remove-message {
+	padding-top: 30px;
+}
+
+#meal-details-list {
+	width: 100%;
+}
+
+#meal-jumbotron {
+	padding-top: 10px;
+}
+
+#meal-header {
+	padding-bottom: 10px;
+}
+
+#meal-image {
+	height: 100%;
+	width: 100%;
+}
+
+#navigation {
+	margin-bottom: 40px;
+}
+
+#login-form {
+	margin-top: 20px;
+}
+
+#description {
+	height: 102px;
+	resize: none;
+}
+
+#username-field {
+	margin-bottom: 7px;
+}
+
+#login-submit {
+	width: 100%;
+	margin-top: 14px;
+}
+
+#account-info-title {
+	text-align: center;
+}
+
+#login-header {
+	text-align: center;
+}
+
+#profile-header {
+	text-align: center;
+}
+
+#profile-hr {
+	width: 85%;
+}
+
+.jumbotron {
+	margin-top: 20px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.row, #prepTime {
+	margin-bottom: 2%;
+}
+
+#minutes, #key-press-instruction {
+	font-size: 11px;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* Upload form styles */
+
+#upload-form-container {
+	box-shadow: 3% 3%;
+}
+
+#upload-form-container h1 {
+	text-align: center;
+}
+
+#ingredientsSelect {
+	margin-top: 1%;
+}
+
+#minutes-message {
+	font-size: 12px;
+	text-align: right;
+	color: red;
+}
+
+#star {
+	color: red;
+}
+
+input[type=text] :focus {
+	background-color: lightblue;
+}
+
+input[type=number] {
+	width: 20%;
+}
+
+#name-genre-form input {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
